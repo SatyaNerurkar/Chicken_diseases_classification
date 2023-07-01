@@ -3,9 +3,11 @@ from box.exceptions import BoxValueError
 import yaml
 from CNNClassifier import logger
 import json
+import joblib
 from ensure import ensure_annotations
 from box import ConfigBox
-from pathlib import Pathfrom typing import Any
+from pathlib import Path
+from typing import Any
 import base64
 
 
